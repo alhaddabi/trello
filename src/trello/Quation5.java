@@ -41,7 +41,7 @@ public class Quation5 {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 10, 20, 20, 30, 30, 40, 50, 50 };
+		int arr[] = { 1,2,2,3,4,4,5,6 };
 
 		int length = arr.length;
 
