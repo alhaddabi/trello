@@ -2,6 +2,8 @@ package trello;
 public class Quation2 {
 
 	public static void main(String[] args) {
+		
+		// getting the largest and the lowest number from the array 
 		int[] number = {1,2,22,2};
 		int largestNumber = number[0];
 		int lowerNumbner = number[0];

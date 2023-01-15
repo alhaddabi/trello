@@ -2,6 +2,7 @@ package trello;
 public class Quation3 {
 
 	public static void main(String[] args) {
+		// get 2 pairs to find the sum total value 
 		int[] arrayNumbers = {2,3,4,5,1,7,10};
 		int totalSum = 7;
 		

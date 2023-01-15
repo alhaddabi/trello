@@ -3,8 +3,9 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Quation1 {
-
+      // getting the error message and re-typing the input again
 	public static void main(String[] args) {
+		
 		Scanner sr = new Scanner(System.in);
 		boolean condition1=true;
 		boolean condition2=true;

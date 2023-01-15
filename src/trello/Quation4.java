@@ -4,7 +4,7 @@ public class Quation4 {
 
 	public static void main(String[] args) {
 	    
-		
+		// finding how many time the number have been repated in the array 
 		int[] numbers = {1,2,3,1};
 		Scanner sr = new Scanner(System.in);                                             
 		System.out.println("please enter the number you want to count : ");

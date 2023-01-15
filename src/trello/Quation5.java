@@ -2,7 +2,7 @@ package trello;
 import java.util.Arrays;
 
 public class Quation5 {
-
+      // getting the non dublicated number from the array
 	public static int removeDuplicateElements(int arr[], int n) {
 
 		if (n == 0 || n == 1) {
