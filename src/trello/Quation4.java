@@ -1,4 +1,4 @@
-package trello;
+package trello;                                                 
 import java.util.Scanner;
 public class Quation4 {
 
@@ -6,7 +6,7 @@ public class Quation4 {
 	    
 		
 		int[] numbers = {1,2,3,1};
-		Scanner sr = new Scanner(System.in);
+		Scanner sr = new Scanner(System.in);                                             
 		System.out.println("please enter the number you want to count : ");
 		int findTheNumebr = sr.nextInt();
 		int count=0;

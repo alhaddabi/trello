@@ -3,7 +3,7 @@ public class Quation3 {
 
 	public static void main(String[] args) {
 		int[] arrayNumbers = {2,3,4,5,1,7,10};
-		int totalSum = 6;
+		int totalSum = 7;
 		
 		for(int i = 0 ; i<arrayNumbers.length ; i++) {
 			for (int l=0 ; l<arrayNumbers.length ; l++) {
