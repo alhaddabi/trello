@@ -6,27 +6,25 @@ public class Quation10 {
 		// Given an array of integers, find the two numbers that appear only once in the array.
 		
 		
-		
-		// not completed !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		Stack<Integer> stc = new Stack<>();
-		int[] array = {1,2,2,3,4,5,5};
-		int count;
-		for (int i = 0 ; i < 6 ; i++) 
+		int[] array = {1,1,2,3,3,4,5,5,6,};
+		
+		for (int i = 0 ; i < array.length; i++) 
 		{
-			
-			for (int p = i+1 ; p < 6 ; p++)
+	     int count=0;
+			for (int p = 0 ; p < array.length ; p++)
 			{
-			count = 1;
-		    if(array[i] != array[p])
+			
+		    if(array[i] == array[p])
 			   {
-				stc.push(array[i]);
 				count++;
 			   }
 	        }
+			if (count == 1)
+			{
+				stc.push(array[i]);
+			}
         }
-		for(Integer s : stc)
-		{
-			System.out.print(" "+s);
-		}
+			System.out.print(" "+stc);
 	}
 }

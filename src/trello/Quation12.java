@@ -8,12 +8,11 @@ public class Quation12 {
          //	   Problem: Given an array of integers, write a function that finds the maximum product that can be formed by multiplying any four integers.
 	    //     Input: [1, 2, 3, 4, 5, 6]
 	   //      Output: 120 (6 * 5 * 4 * 3)
-	           int[] number = {1,2,3,4,5,6};
-	          ;
+	           int[] number = {6,5,4,3,2,1};
 	          
 	           for (int i = 0 ; i < number.length ; i++)
 	           {
-	                 System.out.println(" "+number[i]);
+	                 System.out.print(" "+number[i]);
 	           }
 	          int a = maxprodect(number);
 	          
@@ -28,9 +27,9 @@ public class Quation12 {
 	          {
 	              total = number[l]*total;
 	          }
-	     System.out.println("( "+number[5]+"*"+number[4]+"*"+number[3]+"*"+number[2]+" )");
-	     System.out.println("the total value is "+number[2]*number[3]*number[5]*number[4]);// type number.length if you have alot of index 
-	          return total;
+	          System.out.println("( "+number[5]+"*"+number[4]+"*"+number[3]+"*"+number[2]+" )");
+	          System.out.println("the total value is "+number[2]*number[3]*number[5]*number[4]);// type number.length if you have alot of index 
+	          return total;// we can use only return to get the value 
 
 	}
 

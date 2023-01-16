@@ -16,13 +16,7 @@ public class Quation11 {
 				  thirdHighestNumber = number[i] - 2  ;
 			  }
 			}
-
 			System.out.println("The third larger numnber is : " + thirdHighestNumber);
-
-
-
-
-
 	}
 
 }
