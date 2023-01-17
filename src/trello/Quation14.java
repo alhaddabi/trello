@@ -12,7 +12,7 @@ public class Quation14 {
 		
 		
 		// not completed 
-		int[] numbers = {1,2,15,20,15,30,15,15};
+		int[] numbers = {1,2,20,15,15,30,15,15};
 		  Arrays.sort(numbers);
 		Stack<Integer> stck = new Stack<Integer>();
 
@@ -23,10 +23,10 @@ public class Quation14 {
 				{
 				 stck.push(numbers[i]);
 				}	
-	
 		}
+		
 		System.out.println(stck);
-		for (int l = 0 ; l < stck.size() ; l++)
+		for (int l =0; l < stck.size() ; l++)
 		{
 			if (stck.pop() == stck.pop())
 			{
@@ -36,6 +36,7 @@ public class Quation14 {
 			System.out.println("it have been repeted : "+stck.size()+" time ");
 			break;
 		}
+		
 	
 
 		}
