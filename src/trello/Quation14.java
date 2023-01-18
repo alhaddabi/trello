@@ -7,7 +7,7 @@ public class Quation14 {
 
 	public static void main(String[] args) {
 //Problem: Given an array of integers, write a function to find the number of times a given integer value appears in the array where the value is greater than 10.
-//Input: [1, 2, 15, 20, 15, 30, 20, 15, 15], val = 15
+//Input: [1, 2, 15, 20, 15, 30, 20, 15, 15], value = 15
 //Output: 4
 		
 		
@@ -24,7 +24,6 @@ public class Quation14 {
 				 stck.push(numbers[i]);
 				}	
 		}
-		
 		System.out.println(stck);
 		for (int l =0; l < stck.size() ; l++)
 		{

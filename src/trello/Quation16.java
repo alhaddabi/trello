@@ -1,7 +1,4 @@
 package trello;
-
-import java.util.Stack;
-
 public class Quation16 {
 
 	public static void main(String[] args) {
@@ -22,8 +19,9 @@ public class Quation16 {
 			             }
 			
 			     }
+			
 		}
-		System.out.println("the missing number is "+total);
+	System.out.println("the missing number is "+total);
+		
 	}
-
 }
