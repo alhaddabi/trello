@@ -10,7 +10,7 @@ public class Quation18 {
 		Stack<String> stc = new Stack<String>();
 		Scanner sr = new Scanner(System.in);
 		
-		String name = "bob";
+		String name = "oman";
 		for(int i = 0 ; i < name.length() ; i++)
 		{
 		   char a = name.charAt(i);
@@ -23,6 +23,8 @@ public class Quation18 {
 		{
 			reverse = reverse + stc.pop();
 		}
+		System.out.println(reverse);
+
 		if(reverse.equals(name))
 		{
 			System.out.print("the name =="+name+"== its same like =="+reverse+"== in reverse");
